@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Gráficos</title>
+</head>
+<body>
+    <h1>Generador de Gráficos</h1>
+    <form action="/grafico" method="post">
+        <label for="fecha_inicio">Fecha de inicio:</label>
+        <input type="text" name="fecha_inicio" required>
+        <label for="fecha_fin">Fecha de fin:</label>
+        <input type="text" name="fecha_fin" required>
+        <label for="raspi_id">ID Raspberry:</label>
+        <input type="text" name="raspi_id" required>
+        <label for="ardu_id">ID Arduino:</label>
+        <input type="text" name="ardu_id" required>
+        <button type="submit">Generar Gráfico</button>
+    </form>
+</body>
+</html>
